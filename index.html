@@ -17,112 +17,112 @@
 
     <!--barra de navegacion superior-->
 
+  <!-- Contenedor de la barra de navegación fija -->
+<div class="navbar-fixed">
     
-  <div class="navbar-fixed">
-    
-    <nav class="teal">
-      
-      
+  <!-- Barra de navegación principal con color teal -->
+  <nav class="teal">
       <div class="nav-wrapper container">
-        <a href="#" class="brand-logo">virtualibrary</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <!-- Logo de la marca -->
+          <a href="#" class="brand-logo">Virtualibrary</a>
+          <!-- Botón para menú en dispositivos móviles -->
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+          </a>
+          <!-- Menú de navegación para pantallas grandes -->
           <ul class="right hide-on-med-and-down">
-            <li><a href="index.html">INICIO</a></li>
-            <li>
-              <a href="#" class="dropdown-trigger" data-target="id_q_somos">QUIENES SOMOS
-              <i class="material-icons right">arrow_drop_down</i>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="dropdown-trigger" data-target="id_contactenos">CONTACTENOS
-                <i class="material-icons right">arrow_drop_down</i>
-              </a>
-            </li>
+              <li><a href="index.html">INICIO</a></li>
+              <li>
+                  <a href="#" class="dropdown-trigger" data-target="id_q_somos">
+                      QUIENES SOMOS <i class="material-icons right">arrow_drop_down</i>
+                  </a>
+              </li>
+              <li>
+                  <a href="#" class="dropdown-trigger" data-target="id_contactenos">
+                      CONTACTENOS <i class="material-icons right">arrow_drop_down</i>
+                  </a>
+              </li>
           </ul>
       </div>
-    
-  <ul id= "id_q_somos" class="dropdown-content">
-    <li>
-      <a href="#">MISION</a>
-    </li>
-    <li class="divider"></li>
-    <li>
-      <a href="#">VISION</a>
-    </li>
-  </ul>
 
-  <ul id= "id_contactenos" class="dropdown-content">
-    <li>
-      <a href="https://api.whatsapp.com/send/?phone=573168299736&text&type=phone_number&app_absent=0">WHATSAPP</a>
-    </li>
-    <li class="divider"></li>
-    <li>
-      <a href="#">e-mail
-        <i class="material-icons right">email</i>
-      </a>
-    </li>
-    <li class="divider"></li>
-    <li>
-      <a href="#">INSTAGRAM</a>
-    </li>
-    <li class="divider"></li>
-  </ul>
+      <!-- Menú desplegable de "QUIENES SOMOS" -->
+      <ul id="id_q_somos" class="dropdown-content">
+          <li><a href="#">MISION</a></li>
+          <li class="divider"></li>
+          <li><a href="#">VISION</a></li>
+      </ul>
 
-    </nav>
-
-    <!--sidenav para pantallas pequenas-->
-    <ul class="sidenav" id="mobile-demo">
-      <li><a href="">INICIO</a></li>
-      <li><a href="">QUIENES SOMOS</a></li>
-      <li><a href="">CONTACTENOS</a></li>
-    </ul>
-    <!--sidenav para pantallas pequenas-->
-  </div>
-
-  <!--inicio barra de busqueda-->
-  <nav>
-    <div class="nav-wrapper teal">
-      <form>
-        <div class="input-field">
-          <input id ="search" type="search" required>
-          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-          <i class="material-icons">close</i>
-        </div>
-      </form>
-    </div>
+      <!-- Menú desplegable de "CONTACTENOS" -->
+      <ul id="id_contactenos" class="dropdown-content">
+          <li>
+              <a href="https://api.whatsapp.com/send/?phone=573168299736&text&type=phone_number&app_absent=0">
+                  WHATSAPP
+              </a>
+          </li>
+          <li class="divider"></li>
+          <li>
+              <a href="#">E-MAIL <i class="material-icons right">email</i></a>
+          </li>
+          <li class="divider"></li>
+          <li><a href="#">INSTAGRAM</a></li>
+          <li class="divider"></li>
+      </ul>
   </nav>
-  <!--fin barra de busqueda-->
+</div>
 
-  <!--fin barra de navegacion superior-->
+<!-- Menú lateral para dispositivos móviles -->
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="">INICIO</a></li>
+  <li><a href="">QUIENES SOMOS</a></li>
+  <li><a href="">CONTACTENOS</a></li>
+</ul>
 
-  
-  <!--botones de acceso y feedback-->
-  <div class="fixed-action-btn">
-    <a class="btn-floating btn-large teal pulse">
+<!-- Barra de búsqueda -->
+<nav>
+  <div class="nav-wrapper teal">
+      <form>
+          <div class="input-field">
+              <input id="search" type="search" required>
+              <label class="label-icon" for="search">
+                  <i class="material-icons">search</i>
+              </label>
+              <i class="material-icons">close</i>
+          </div>
+      </form>
+  </div>
+</nav>
+
+<!-- Botones de acceso rápido y feedback -->
+<div class="fixed-action-btn">
+  <a class="btn-floating btn-large teal pulse">
       <i class="large material-icons">help_center</i>
-    </a>
-    <ul>  
-      <li><a class="btn-floating green"><i  id="menu-usuario" class="material-icons">account_circle</i></a></li>
+  </a>
+  <ul>
+      <li><a class="btn-floating green"><i id="menu-usuario" class="material-icons">account_circle</i></a></li>
       <li><a class="btn-floating blue"><i class="material-icons">share</i></a></li>
       <li><a class="btn-floating teal"><i class="material-icons">attach_file</i></a></li>
       <li><a class="btn-floating orange"><i class="material-icons">feedback</i></a></li>
-    </ul>
-  </div>
+  </ul>
+</div>
 
+<!-- Menú lateral con información del usuario -->
 <ul class="sidenav" id="slide-out">
   <li>
-    <div class="user-view">
-      <div class="background">
-        <img src="https://get.pxhere.com/photo/beach-sea-coast-water-sand-rock-ocean-horizon-cloud-sunrise-sunset-sunlight-morning-shore-wave-dawn-motion-dusk-evening-reflection-terrain-material-body-of-water-rocks-seascapes-cape-atmospheric-phenomenon-wind-wave-500426.jpg" alt="">
+      <div class="user-view">
+          <div class="background">
+              <img src="https://get.pxhere.com/photo/beach-sea-coast-water-sand-rock-ocean-horizon-cloud-sunrise-sunset-sunlight-morning-shore-wave-dawn-motion-dusk-evening-reflection-terrain-material-body-of-water-rocks-seascapes-cape-atmospheric-phenomenon-wind-wave-500426.jpg" alt="Fondo de usuario">
+          </div>
+          <a href="#user">
+              <img class="circle" src="https://get.pxhere.com/photo/avatar-people-person-business-user-man-character-set-icon-portrait-office-profile-pictograph-social-adult-suit-technology-individual-head-face-design-concept-emblem-symbol-smile-formal-elements-facial-expression-cartoon-male-forehead-cheek-chin-human-behavior-standing-gentleman-businessperson-mouth-clip-art-communication-conversation-public-speaking-finger-illustration-facial-hair-happiness-organization-graphics-1447663.jpg" alt="Avatar de usuario">
+          </a>
+          <a href="#name"><span class="white-text name">Julian Muñoz</span></a>
+          <a href="#email"><span class="white-text email">jdavid9024@gmail.com</span></a>
       </div>
-      <a href="#user" ><img class="circle" src="https://get.pxhere.com/photo/avatar-people-person-business-user-man-character-set-icon-portrait-office-profile-pictograph-social-adult-suit-technology-individual-head-face-design-concept-emblem-symbol-smile-formal-elements-facial-expression-cartoon-male-forehead-cheek-chin-human-behavior-standing-gentleman-businessperson-mouth-clip-art-communication-conversation-public-speaking-finger-illustration-facial-hair-happiness-organization-graphics-1447663.jpg"> </a>
-      <a href="#name"><span class="white-text name">Julian Muñoz</span></a>
-      <a href="#email"><span class="white-text email">jdavid9024@gmail.com</span></a>
-    </div>
   </li>
   <li><a href=""><i class="material-icons">cloud</i></a></li>
   <li><a href=""><i class="material-icons">cloud</i></a></li>
 </ul>
+
 
  
   <!--fin botones de acceso y feedback-->
