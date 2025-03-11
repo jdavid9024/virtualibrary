@@ -1,0 +1,309 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>biblioteca</title>
+
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  </head>
+  <body>
+
+    <!--barra de navegacion superior-->
+
+    
+  <div class="navbar-fixed">
+    
+    <nav class="teal">
+      
+      
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo">virtualibrary</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">INICIO</a></li>
+            <li>
+              <a href="#" class="dropdown-trigger" data-target="id_q_somos">QUIENES SOMOS
+              <i class="material-icons right">arrow_drop_down</i>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="dropdown-trigger" data-target="id_contactenos">CONTACTENOS
+                <i class="material-icons right">arrow_drop_down</i>
+              </a>
+            </li>
+          </ul>
+      </div>
+    
+  <ul id= "id_q_somos" class="dropdown-content">
+    <li>
+      <a href="#">MISION</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="#">VISION</a>
+    </li>
+  </ul>
+
+  <ul id= "id_contactenos" class="dropdown-content">
+    <li>
+      <a href="https://api.whatsapp.com/send/?phone=573168299736&text&type=phone_number&app_absent=0">WHATSAPP</a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="#">e-mail
+        <i class="material-icons right">email</i>
+      </a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="#">INSTAGRAM</a>
+    </li>
+    <li class="divider"></li>
+  </ul>
+
+    </nav>
+
+    <!--sidenav para pantallas pequenas-->
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="">INICIO</a></li>
+      <li><a href="">QUIENES SOMOS</a></li>
+      <li><a href="">CONTACTENOS</a></li>
+    </ul>
+    <!--sidenav para pantallas pequenas-->
+  </div>
+
+  <!--inicio barra de busqueda-->
+  <nav>
+    <div class="nav-wrapper teal">
+      <form>
+        <div class="input-field">
+          <input id ="search" type="search" required>
+          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+    </div>
+  </nav>
+  <!--fin barra de busqueda-->
+
+  <!--fin barra de navegacion superior-->
+
+  
+  <!--botones de acceso y feedback-->
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large teal pulse">
+      <i class="large material-icons">help_center</i>
+    </a>
+    <ul>  
+      <li><a class="btn-floating green"><i  id="menu-usuario" class="material-icons">account_circle</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">share</i></a></li>
+      <li><a class="btn-floating teal"><i class="material-icons">attach_file</i></a></li>
+      <li><a class="btn-floating orange"><i class="material-icons">feedback</i></a></li>
+    </ul>
+  </div>
+
+<ul class="sidenav" id="slide-out">
+  <li>
+    <div class="user-view">
+      <div class="background">
+        <img src="https://get.pxhere.com/photo/beach-sea-coast-water-sand-rock-ocean-horizon-cloud-sunrise-sunset-sunlight-morning-shore-wave-dawn-motion-dusk-evening-reflection-terrain-material-body-of-water-rocks-seascapes-cape-atmospheric-phenomenon-wind-wave-500426.jpg" alt="">
+      </div>
+      <a href="#user" ><img class="circle" src="https://get.pxhere.com/photo/avatar-people-person-business-user-man-character-set-icon-portrait-office-profile-pictograph-social-adult-suit-technology-individual-head-face-design-concept-emblem-symbol-smile-formal-elements-facial-expression-cartoon-male-forehead-cheek-chin-human-behavior-standing-gentleman-businessperson-mouth-clip-art-communication-conversation-public-speaking-finger-illustration-facial-hair-happiness-organization-graphics-1447663.jpg"> </a>
+      <a href="#name"><span class="white-text name">Julian Muñoz</span></a>
+      <a href="#email"><span class="white-text email">jdavid9024@gmail.com</span></a>
+    </div>
+  </li>
+  <li><a href=""><i class="material-icons">cloud</i></a></li>
+  <li><a href=""><i class="material-icons">cloud</i></a></li>
+</ul>
+
+ 
+  <!--fin botones de acceso y feedback-->
+
+  
+  <!--contenedor banner, menu vertical y cards-->
+  <div class="container">
+
+    <!--slider en vez de banner-->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="https://get.pxhere.com/photo/book-read-wood-reading-education-library-design-rent-knowledge-computers-kielce-books-in-the-library-personal-computer-hardware-this-book-is-britannica-1331801.jpg" alt="">
+          <div class="caption center-align">
+            <h3>Gran catálogo</h3>
+            <h3 class="light grey-text text-lighten-3">"Desde clásicos atemporales hasta las últimas novedades: ¡Encuéntralos todos aquí!"
+            </h3>
+          </div>
+        </li>
+        <li>
+          <img src="https://get.pxhere.com/photo/hand-black-and-white-game-photo-love-heart-finger-freedom-friendship-black-monochrome-arm-nail-life-holding-hands-colors-hands-hope-share-union-interaction-bnnrrb-chords-sense-brotherhood-bonds-monochrome-photography-one-for-all-and-all-for-one-ethnicities-all-for-one-and-one-for-all-sharing-among-peoples-unity-is-strength-hand-model-617724.jpg" alt="">
+          <div class="caption center-align">
+            <h3>La experiencia de compartir</h3>
+            <h5 class="cyan-text text-lighten-3">"Descubre la magia de compartir conocimientos con nuestra comunidad."</h5>
+          </div>
+        </li>
+        <li>
+          <img src="https://get.pxhere.com/photo/technology-desktop-computer-personal-computer-computer-hardware-personal-computer-hardware-display-device-computer-program-197588.jpg" alt="">
+          <div class="caption center-align">
+            <h3>Espacios de estudio</h3>
+            <h5 class="light grey-text text-lighten-3">"Encuentra tu rincón de concentración y aprendizaje donde el silencio se convierte en tu aliado para el éxito académico."</h5>
+          </div>
+        </li>
+        <li>
+          <img src="https://get.pxhere.com/photo/communication-chat-chatting-app-social-network-internet-people-information-speech-technology-bubble-talk-message-discussion-meeting-text-online-speak-feedback-student-college-messenger-cartoon-Animated-cartoon-illustration-clip-art-animation-graphics-art-gesture-fictional-character-1587939.jpg" alt="">
+          <div class="caption center-align">
+            <h3>Foros</h3>
+            <h5 class="light grey-text text-lighten-3">"Convierte tus pensamientos en conversaciones en nuestros foros."</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+  
+      <!--inicio menu lateral-->
+      <div class="div row">
+          <div class="div col s2 blue-grey darken-1 white-text">
+            <ul class="nav">
+              <li>
+                <a href="2recursos.html"class="waves-effect waves-light btn-flat brown lighten-4">RECURSOS</a>
+              </li> <br>
+              <li>
+                <a href="3foros.html"class="waves-effect waves-light btn-flat brown lighten-4">FOROS</a>
+              </li><br>
+              <li> 
+                <a href="4audiolibros.html"class="waves-effect waves-light btn-flat brown lighten-4">AUDIOLIBROS</a>
+              </li><br>
+              <li>
+                <a href="5reserva.html"class="waves-effect waves-light btn-flat brown lighten-4">RESERVA SALAS</a>
+              </li>
+            </ul>
+
+
+            
+          </div>
+
+          
+
+        <!--fin menu lateral-->
+
+        <!--inicio cards-->
+          <div class="div col s7 teal lighten-4">
+              <div class="card deep-purple lighten-5">
+                <div class="card-image">
+                  <img src="https://get.pxhere.com/photo/book-black-and-white-antique-retro-old-reading-stack-black-furniture-monochrome-material-education-brand-product-textile-literature-books-bed-learning-wisdom-knowledge-old-books-monochrome-photography-stack-of-books-vintage-books-1225330.jpg" alt="">
+                </div>
+                <div class="card-content">
+                  <p> "Conecta con otros amantes de la lectura en nuestros vibrantes foros de discusión. Comparte tus ideas, haz preguntas y descubre nuevas perspectivas sobre tus libros favoritos."</p>
+                </div>
+              </div>
+              <div class="card light-blue lighten-5">
+                <div class="card-image">
+                  <img src="https://get.pxhere.com/photo/computer-writing-working-person-biology-office-conversation-education-classroom-design-studying-learning-office-work-work-at-home-working-from-home-1224832.jpg" alt="">
+                </div>
+                <div class="card-content">
+                  <p> "Encuentra tu espacio perfecto para estudiar, colaborar o simplemente relajarte. Reserva fácilmente salas de estudio equipadas con todo lo que necesitas para concentrarte y ser productivo."</p>
+                </div>
+              </div> 
+          </div>
+          <div class="div col s3 teal accent-1">
+              <div class="card orange lighten-5">
+                <div class="card-image">
+                  <img src="https://get.pxhere.com/photo/smartphone-writing-hand-man-music-people-bench-sidewalk-guy-leg-finger-tshirt-arm-human-body-audio-headphones-shorts-glasses-footwear-sense-860217.jpg" alt="">
+                </div>
+                <div class="card-content">
+                  <p> ""Escucha tus historias favoritas en cualquier momento y lugar con nuestra colección de audiolibros. Sumérgete en nuevas aventuras mientras viajas, haces ejercicio o simplemente te relajas en casa."</p>
+                </div>
+              </div>  
+              <div class="card green lighten-5">
+                <div class="card-image">
+                  <img src="https://get.pxhere.com/photo/recreation-board-game-competition-war-power-battle-decision-sports-chess-strategy-chessboard-move-contest-planning-draw-games-tournament-debate-challenge-conflict-putsch-coup-combat-surrender-confrontation-check-checkmate-dispute-chess-pieces-skirmish-quarrel-give-up-defeat-struggle-usurp-rivalry-resignation-assassination-stalemate-game-over-treachery-treacherous-treason-hostilities-overthrow-indoor-games-and-sports-tabletop-game-588370.jpg" alt="">
+                </div>
+                <div class="card-content">
+                  <p> Atención a todos los amantes del ajedrez! La Biblioteca virtualibrary se complace en invitarlos a nuestro emocionante torneo de ajedrez que se llevará a cabo este próximo fin de semana. <br>
+
+                    📅 Fecha: febrero 29 de 2025<br>
+                    🕒 Horario: 10:00pm<br>
+                    📍 Lugar: avenida siempre viva #123.</p>
+                </div>
+              </div>  
+          </div>
+    </div>
+  </div>
+
+  <!--fin contenedor banner,  menu vertical y cards-->
+
+
+
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    M.AutoInit();
+    });
+  </script>
+
+  <script>
+      $(document).ready(function(){
+        $('.slider').slider();
+      });
+          
+  </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, {});
+
+    var usuarioBtn = document.getElementById('menu-usuario');
+    usuarioBtn.addEventListener('click', function() {
+      var sidenavInstance = M.Sidenav.getInstance(document.getElementById('slide-out'));
+      sidenavInstance.open();
+    });
+  });
+</script>
+  
+    </body>
+
+    <footer class="page-footer teal accent-4">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h8 class="white-text">
+                    DIRECCION CALLE 72B # 5A 72 <br>
+                    CALI,VALLE TEL: 3128797633<br>
+                        SERVICO NACIONAL DE PARENDIZAJE<br>
+                  </h8>
+                  <p class="grey-text text-lighten-4">EVIDENCIA "Maquetación de la Interfaz gráfica en HTML GA5-220501095-AA1-EV04"</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Links</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="https://sena.territorio.la/cms/index.php">Territorium</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://www.youtube.com/watch?v=ddiy0azeS5g">ADSO</a></li>
+                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2024 Derechos reservados
+              <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+              </div>
+            </div>
+    </footer>
+
+  </html>
