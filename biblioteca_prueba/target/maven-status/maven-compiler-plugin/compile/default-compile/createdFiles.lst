@@ -1,0 +1,3 @@
+com\mycompany\biblioteca_prueba\resources\JakartaEE10Resource.class
+servlets\ReservaServlet.class
+com\mycompany\biblioteca_prueba\JakartaRestConfiguration.class
